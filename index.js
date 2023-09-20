@@ -49,7 +49,3 @@ function validate(e) {
 function isEmail(input) {
   return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(input);
 }
-
-window.onresize = function () {
-  location.reload();
-};
